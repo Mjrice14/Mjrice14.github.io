@@ -229,7 +229,7 @@ function weight() {
   let weights = data1.getColumn('weight');
   
   stroke(0)
-  strokeWeight(2)
+  strokeWeight(3)
   
   fill("white");
   textAlign(LEFT, CENTER)
@@ -242,7 +242,7 @@ function weight() {
   strokeWeight(2)
   line(65,calendarY+20,400,calendarY+20)//270
   stroke(0)
-  strokeWeight(2)
+  strokeWeight(3)
   
   textSize(18)  
   text("Yesterday:",75,calendarY+40)
